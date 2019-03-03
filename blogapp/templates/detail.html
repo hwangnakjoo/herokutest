@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+
+{% block content %}
+<br>
+<div class="container">
+  <img class="card-detail" style="width: 20%;" src="{{ blogdetail.img.url }}" alt="z">
+  <h2>{{ blogdetail.title }}</h2>
+  <p>{{ blogdetail.body }}</p>
+</div>
+{% endblock %}
